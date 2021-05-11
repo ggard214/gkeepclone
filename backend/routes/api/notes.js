@@ -5,7 +5,8 @@ const db = require("../../db/models");
 
 const { User, Note } = db;
 
-router.get("/", async (req, res, next) => {
+// Add new note
+router.post("/new", async (req, res) => {
     const notes = await Note.findAll({
         where: {userid}
     })

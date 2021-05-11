@@ -1,3 +1,28 @@
 .profile-dropdown {
   position: absolute;
 }
+
+#top-nav-bar {
+  background: grey;
+  margin: 0;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.homeicon {
+  height: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.signupbutton {
+  background: none;
+  color: inherit;
+  border: none;
+  padding-left: 5px;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
