@@ -11,9 +11,8 @@ const Home = () => {
   return (
       <>
       <div>
-      <img className="keeplogo" src={keepimg} alt="NoteKeeper" />
       </div>
-      <div><h1>homepage</h1></div>
+      <div><h1>This is the homepage when you log in to your account</h1></div>
       </>
   );
   };
